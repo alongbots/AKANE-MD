@@ -9,8 +9,8 @@
   "author": "RICHIE",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@colors/colors": "1.5.0",
-      "@whiskeysockets/baileys": "npm:anju-xpro-baileys@latest",
+    "@colors/colors": "1.5.0", 
+ "@whiskeysockets/baileys": "npm:baileys-alpha",
    "@vitalets/google-translate-api": "^9.2.0",
    "@vitalets/google-translate-api": "^8.0.0",
     "phone" : "3.1.30",
