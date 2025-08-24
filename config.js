@@ -10,7 +10,8 @@ require('dotenv').config();
 
 //================= { SETTINGS } =================\\
 global.owner = process.env.OWNER_NUMBER || "234"; // owner number 
-global.botimg = 'https://files.catbox.moe/l9gpzm.jpg'
+global.botimg = process.env.BOT_IMG || "https://files.catbox.moe/l9gpzm.jpg"
+global.previewLink = process.env.PREVIEW_LINK || ""
 global.sudo = process.env.SUDO  || " ";
 global.ownername = process.env.OWNER_NAME || "Richie";
 global.botname = process.env.BOT_NAME || "AKANE"
