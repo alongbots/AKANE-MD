@@ -9,22 +9,22 @@ const fs = require("fs")
 require('dotenv').config(); 
 
 //================= { SETTINGS } =================\\
-global.owner = process.env.OWNER_NUMBER || "234"; // owner number 
+global.owner = process.env.OWNER_NUMBER || "917005972085"; // owner number 
 global.botimg = process.env.BOT_IMG || "https://files.catbox.moe/l9gpzm.jpg"
 global.previewLink = process.env.PREVIEW_LINK || ""
 global.sudo = process.env.SUDO  || " ";
-global.ownername = process.env.OWNER_NAME || "Richie";
+global.ownername = process.env.OWNER_NAME || "AKUM";
 global.botname = process.env.BOT_NAME || "AKANE"
 global.onlypc = process.env.ONLYPC_MSG  || "Sorry buddy the bot won't work directly in group chat to reduce spam use in private chat";
 global.onlygc = process.env.ONLYGC_MSG  || "Sorry buddy the bot won't work directly in private chat to reduce spam use in group";
-global.session = process.env.SESSION_ID || ""
-global.timezone = process.env.TIME_ZONE || "Africa/Lagos";
+global.session = process.env.SESSION_ID || "Akane-Md_895ee314ca4daaedc1387e659c4dbd78"
+global.timezone = process.env.TIME_ZONE || "NAGALAND";
 
 
 //======= Don't touch =======\\
 global.msg = {
     succes: 'Success',
-    owner: 'This feature could be used by owner only',
+    owner: 'This feature could be used by AKUM only',
 	admin: 'This feature could be used by group admin only',
 	BotAdmin: 'This feature could be used when the bot is an admin only',
     group: 'Features Used Only For Groups!',
@@ -38,10 +38,10 @@ global.msg = {
  global.egg = "15"
 global.nestid = "5" // nest ID
 global.loc = "1"
-global.domain = "add_domaim_url"
+global.domain = "https://www.along-bots.zone.id"
 global.apikey = "add_api_key"
 global.capikey = "add_capikey"
-global.creatorName = "Richie"
+global.creatorName = "ALONG"
 
 //==========================
     
